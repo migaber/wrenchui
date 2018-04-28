@@ -6,3 +6,5 @@ UI tool kit for craftmen
 
 ## Getting Started
 This UI toolki t is still under development
+
+you can generate css files using `yarn build`
