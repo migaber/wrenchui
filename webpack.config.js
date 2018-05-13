@@ -21,27 +21,18 @@ const config = {
                         {
                             loader: 'css-loader',
                         },
+                        'postcss-loader',
                         'sass-loader'
                     ]
                 })
             },
-            // {
-            //     test: /\.scss/,
-            //     use: [
-            //         {
-            //             loader: 'css-loader'
-            //         },{
-            //             loader: 'sass-loader'
-            //         }
-            //     ]
-            // }
         ]
     },
-    // devServer: {
-    //     contentBase: path.resolve(__dirname, '../public'),
-    //     stats: 'errors-only',
-    //     port: 9000
-    // },
+    devServer: {
+        contentBase: path.resolve(__dirname, '../public'),
+        stats: 'errors-only',
+        port: 9000
+    },
     devtool: "source-map",
     plugins: [
         extractSass

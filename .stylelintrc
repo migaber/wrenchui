@@ -1,0 +1,20 @@
+{
+  'extends': 'stylelint-config-recommended-scss',
+  'rules': {
+    'max-empty-lines': 1,
+    'max-line-length': 100,
+    'max-nesting-depth': 6,
+    'media-feature-range-operator-space-after': 'never',
+    'declaration-empty-line-before': 'never',
+    'declaration-block-semicolon-newline-after': 'always',
+    'no-extra-semicolons': true,
+    'shorthand-property-no-redundant-values': true,
+    'at-rule-semicolon-newline-after': 'always',
+    'function-comma-space-before': 'never',
+    'function-comma-space-after': 'always-single-line',
+    'value-list-max-empty-lines': 0,
+    'declaration-block-trailing-semicolon': 'always',
+    'selector-pseudo-element-colon-notation': 'double',
+    'selector-type-no-unknown': [true, { 'severity': 'warning' }]
+  }
+}

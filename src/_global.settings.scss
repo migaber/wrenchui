@@ -1,33 +1,67 @@
+// REPLACE THOSE VARS
+$black: black !default;
+$headings-margin-bottom: 1rem / 2;
+$paragraph-margin-bottom:   1rem !default;
+$link-color: #007bff;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$label-margin-bottom: .5rem !default;
+$table-cell-padding: .75rem !default;
+$table-caption-color: #6c757d !default;
+
+
+
 // Colors
 $border-color: #ff2200;
+$wui-body-color: #333333;
 
 // Shadows
 
 // Typography
-$wui-font-family: 'sans-serf';
-$wui-default-body-size: 16px;
-$wui-font-size-xsmall: 0.8rem;
-$wui-font-size-small: 1rem;
-$wui-font-size-default: 1.25rem;
-$wui-font-size-medium: 1.6rem;
-$wui-font-size-large: 2.4rem;
-$wui-font-size-xlarge: 3rem;
-$wui-font-size-xxlarge: 6rem;
+$wui-font-family-sans-serif:
+    // Safari for OS X and iOS (San Francisco)
+    -apple-system,
+    // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
+    system-ui,
+    // Chrome < 56 for OS X (San Francisco)
+    BlinkMacSystemFont,
+    // Windows
+    "Segoe UI",
+    // Android
+    "Roboto",
+    // Basic web fallback
+    "Helvetica Neue", Arial, sans-serif !default;
+
+$wui-font-family-base: $wui-font-family-sans-serif !default;
+$wui-font-size-base: 16px !default;
+$wui-font-size-xsmall: 0.8rem !default;
+$wui-font-size-small: 1rem !default;
+$wui-font-size-default: 1.25rem !default;
+$wui-font-size-medium: 1.6rem !default;
+$wui-font-size-large: 2.4rem !default;
+$wui-font-size-xlarge: 3rem !default;
+$wui-font-size-xxlarge: 6rem !default;
+
+$wui-font-weight-normal: 400 !default;
+$wui-font-weight-bold: 700 !default;
+$wui-font-weight-base: $wui-font-weight-normal !default;
 
 // Borders
-$wui-border-width: 1px;
-$wui-border-style: 'solid';
-$wui-border-color: $border-color;
-$wui-border-radius-small: 2px;
-$wui-border-radius-medium: 4px;
-$wui-border-radius-medium: 8px;
-$wui-border-radius-circle: 50%;
+$wui-border-width: 1px !default;
+$wui-border-style: 'solid' !default;
+$wui-border-color: $border-color !default;
+$wui-border-radius-small: 2px !default;
+$wui-border-radius-medium: 4px !default;
+$wui-border-radius-medium: 8px !default;
+$wui-border-radius-circle: 50% !default;
 
 // Spacing
-$wui-spacing-1x: 8px;
-$wui-spacing-2x: 16px;
-$wui-spacing-3x: 24px;
-$wui-spacing-4x: 32px;
-$wui-spacing-5x: 40px;
-$wui-spacing-6x: 48px;
-$wui-spacing-7x: 56px;
+$wui-spacing-1x: 8px !default;
+$wui-spacing-2x: 16px !default;
+$wui-spacing-3x: 24px !default;
+$wui-spacing-4x: 32px !default;
+$wui-spacing-5x: 40px !default;
+$wui-spacing-6x: 48px !default;
+$wui-spacing-7x: 56px !default;
