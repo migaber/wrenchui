@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull the repository
-                git url: 'https://your-repo-url.git', branch: 'main'
+                git url: 'https://github.com/migaber/wrenchui.git', branch: 'main'
             }
         }
 
